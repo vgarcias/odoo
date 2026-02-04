@@ -1,0 +1,21 @@
+{
+  "name": "odoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch scss:css",
+    "build": "sass scss\\main.scss css\\main.min.css --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "bootstrap": "5.3",
+    "sass": "^1.97.3"
+  },
+  "dependencies": {
+    "lucide": "^0.563.0"
+  }
+}

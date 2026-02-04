@@ -1,0 +1,58 @@
+header {
+    background-color: $primary;
+    //height: 90px;
+}
+header nav {
+    width: $full-width;
+    margin: 0 auto;
+}
+header nav .container{
+    width: $lg-width;
+    padding: auto 10px;
+    border-bottom: $border-nav;
+    height: 90px;
+}
+header nav .navbar-brand {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+header nav .navbar-brand:hover {
+    color: darken(white, 20%);
+    text-decoration: none;
+}
+header nav .nav-link {
+    color: white;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+header nav .nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+#navbarNav{
+    background-color: $primary;
+    border-radius: $border-radius;
+    padding: 10px;
+}
+.lucide {
+  /* Change this! */
+  width: 16px;
+  height: 16px;
+  margin:0 8px;
+  vertical-align: middle;
+}
+.buy-now {
+  font-size: $font-shopping-size;
+  font-weight: 700;
+}
+@media (max-width: 991px) {
+    header nav {
+        width: 100%;
+        padding: auto 10px;
+    }
+    header nav .container {
+        width: 100%;
+        padding: auto 0px;
+    }
+}
