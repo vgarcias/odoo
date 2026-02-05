@@ -11870,20 +11870,28 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.btn-bordergray {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+  border: solid 2px #E8E8E8;
+}
+
+.btn-green {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #5CCAA7;
+  color: white;
+  border: none;
+}
+
+.btn-green:hover {
+  background-color: rgb(47.1111111111, 144.8888888889, 113.7777777778);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 header {
   background-color: #038AFF;
-}
-
-header nav {
-  width: 1280px;
-  margin: 0 auto;
-}
-
-header nav .container {
-  width: 1200px;
-  padding: auto 10px;
-  border-bottom: 1px solid rgb(54, 161.6785714286, 255);
-  height: 90px;
 }
 
 header nav .navbar-brand {
@@ -11927,14 +11935,16 @@ header nav .nav-link:hover {
   font-weight: 700;
 }
 
-@media (max-width: 991px) {
+@media (min-width: 992px) {
   header nav {
-    width: 100%;
-    padding: auto 10px;
+    width: 1280px;
+    margin: 0 auto;
   }
   header nav .container {
-    width: 100%;
-    padding: auto 0px;
+    width: 1200px;
+    padding: auto 10px;
+    border-bottom: 1px solid rgb(54, 161.6785714286, 255);
+    height: 90px;
   }
 }
 .heroe {
@@ -11946,18 +11956,118 @@ header nav .nav-link:hover {
 .heroe-container {
   width: 1200px;
   margin: 0 auto;
-  padding: 60px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .heroe-title {
+  padding-top: 60px;
   color: white;
   font-size: 3.2rem;
   font-weight: 700;
-  width: 67%;
   line-height: 5rem;
+}
+
+.heroe-subtitle {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-top: 20px;
+}
+
+.heroe-trustedby {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-align: center;
+  min-width: 600px;
+  margin-top: 90px;
+}
+
+.heroe-button {
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 180px;
+  height: 60px;
+}
+
+.heroe-demo {
+  margin-top: 0px;
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border-bottom-right-radius: 100px;
+  background-color: white;
+  padding: 40px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #152B5C;
+}
+
+.card-panel {
+  background-color: #1F1248;
+  background-image: url("../images/png/credit-card.png");
+  border-radius: 7px;
+  padding: 20px;
+  margin-top: 10px;
+  width: 470px;
+  height: 280px;
+}
+
+.card-subtitle {
+  font-size: 0.7rem;
+  font-variant: capitalize;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.card-number {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 4px;
+  margin-top: 6px;
+  font-weight: 700;
+}
+
+.payment-title {
+  font-size: 1rem;
+  color: #152B5C;
+  font-weight: 600;
+}
+
+.payment-amount {
+  font-size: 0.9rem;
+  color: #152B5C;
+  font-weight: 600;
+}
+
+.payment-text {
+  font-size: 0.9rem;
+  color: #8592A5;
+  font-weight: 600;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #E9ECF3;
+}
+
+.link-viewall {
+  color: #038AFF;
+  text-decoration: none;
+  border-bottom: 1px dashed #038AFF;
 }
 
 .clippath-1 {

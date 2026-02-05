@@ -8,3 +8,30 @@ body {
     background-color: #f8f9fa;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.btn-bordergray{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    border: solid 2px #E8E8E8;
+}
+.btn-green{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: $turquoise;
+    color: white;
+    border: none;
+}
+.btn-green:hover{
+    background-color:darken($turquoise, 20%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+// sm (landscape phones, 576px y superior)
+@media (min-width: 576px) {  }
+
+// md (tablets, 768px y superior)
+@media (min-width: 768px) {  }
+
+// lg (desktops, 992px y superior)
+@media (min-width: 992px) { }
+
