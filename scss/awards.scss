@@ -1,0 +1,34 @@
+.awards-container{
+    margin-top: 220px;
+}
+.awards-top{
+    width: $lg-width;
+    margin:auto;
+}
+.awards-bottom{
+    width: $full-width;
+    margin-left: 5%;
+    margin-right: 0px;
+}
+.awards .card{
+    width:250px;
+    height:300px;
+}
+.awards .card-text{
+    font-size: 0.9rem;
+    color: $dark-gray;
+    font-weight: 600;
+}
+#award-01, #award-03, #award-05{
+    margin-top: 100px;
+}
+.link-learnmore{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.hr-dark{
+    border-top: 2px solid black;
+}
+ 

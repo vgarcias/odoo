@@ -1,0 +1,186 @@
+.services{
+    padding-top:60px;
+    width: $lg-width;
+    margin: 0 auto;
+
+}
+.tools-card {
+    position: relative;
+}
+.tools-image {
+    position: absolute;
+    left: 230px;
+    top: -80px;
+    z-index: 10;
+    width: 320px;
+    height: 256px;
+    background-image: url(../images/jpg/img_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
+.btn-tools-play {
+    font-size: $font-btn1-size;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.tools-title{
+    font-size:2rem;
+    font-weight:700;
+    color:$navy-blue;
+}
+.tools-subtitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:$navy-blue;
+}
+.tools-item h5{
+    font-size: 0.9rem;
+    color:$navy-blue;
+    font-weight: 700;
+}
+.tools-text{
+    font-size: 1.1rem;    
+    line-height: 2rem;
+    color:$dark-gray;
+    font-weight: 600;
+}
+.features{
+    margin-top: 50px;
+}
+.features-title {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color:$navy-blue;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.features-text{
+    border:none;
+}
+.features-text li{
+    border:none;
+    color:$turquoise;
+}
+.features-text li span{
+    margin-right:10px;
+}
+.features-card {
+    position: relative;
+    border: none;
+}
+.features-image {
+    position: absolute;
+    left: -70px;
+    top: -70px;
+    z-index: 10;
+    width: 600px;
+    height: 480px;
+    background-image: url(../images/jpg/img_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
+.btn-features-play {
+    font-size: $font-btn1-size;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.technology-content{
+    margin-top: 50px;
+}
+.technology-title{
+    font-size:2rem;
+    font-weight:700;
+    color:$navy-blue;
+    line-height: 3rem;    
+}
+.technology-text{
+    font-size: 1.1rem;    
+    line-height: 2rem;
+    color:$dark-gray;
+    font-weight: 600;
+}
+.link-cases{
+    font-size: 1rem;
+    font-weight: 700;
+    color: $blue;
+    text-decoration: none;
+    border-bottom: 2px solid $blue;
+}
+.technology .card {
+    width:260px;
+    color:$navy-blue;
+}
+.technology .card-text{
+    color:$dark-gray;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+#tech-card01{
+    margin-top: 100px;
+}
+.persona-small{
+    width: 36px;
+    height: 36px;
+    margin-left: -18px;
+}
+.more-icons{
+    color:#61728B;
+}
+#curva-03{
+    margin-top: -80px;
+}
+.easy-card {
+    position: relative;
+    border: none;
+}
+.easy-image{
+    width: 550px;
+    height: 440px;
+    background-image: url(../images/jpg/img_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
+.btn-easy-play {
+    font-size: $font-btn1-size;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.easy-title{
+    font-size:1.8rem;
+    font-weight:600;
+    color:$navy-blue;
+    line-height: 3rem;    
+}
+.easy-text{
+    font-size: 1.1rem;    
+    line-height: 2rem;
+    color:$dark-gray;
+    font-weight: 600;
+}
+#infinite{
+    width: $lg-width;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: $dark-blue;
+    color: white;
+    border-radius: 0px 70px 0px 70px;
+}
+.btn-infinite{
+    font-size: $font-btn1-size;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 20px;   
+}

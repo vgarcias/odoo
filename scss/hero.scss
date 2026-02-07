@@ -1,0 +1,124 @@
+.hero {
+    background-color: $blue;
+    margin-top: 0px;
+    padding-top: 90px;
+}
+.hero-container {
+    width: $lg-width;
+    margin: 0 auto;
+}
+.hero-title {
+    padding-top: 60px;
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 5rem;
+}
+.hero-subtitle{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-top: 20px;
+}   
+.hero-trustedby{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: center;
+    min-width: 600px;
+    margin-top: 90px;
+}
+
+.hero-button{
+    margin-top: 30px;
+    font-size: $font-btn1-size;
+    font-weight: 600;
+    width:180px;
+    height: 60px;
+}
+
+.hero-demo{
+    margin-top: 0px;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    background-color: white;
+    padding: 40px;
+}
+.creditcard-title{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: $navy-blue;
+}
+.creditcard-panel{
+    background-color: #1F1248;
+    background-image: url("../images/png/credit-card.png");
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 470px;
+    height: 280px;
+}
+.creditcard-subtitle{
+    font-size: 0.7rem;
+    font-variant: capitalize; 
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.creditcard-text{
+    font-size: 1.5rem;
+    color: white;
+    margin-top:20px;
+    font-weight: 600;
+}
+.creditcard-number{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 4px;
+    margin-top: 6px;
+    font-weight: 700;
+}
+.payment-title{
+    font-size: 1rem;
+    color: $navy-blue;
+    font-weight: 600;
+}
+.payment-amount{
+    font-size: 0.9rem;
+    color: $navy-blue;
+    font-weight: 600;
+}
+.payment-text{
+    font-size: 0.9rem;
+    color: $gray;
+    font-weight: 600;
+    padding-bottom:20px;   
+    margin-bottom: 15px;
+    border-bottom: 1px solid $light-gray; 
+}
+.link-viewall{
+    color: $blue;
+    text-decoration: none;
+    border-bottom: 1px dashed $blue;
+}
+
+.clippath-1 {
+    width: 100%;
+    height: 100px;
+    background: white;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
+}
+
+// sm (landscape phones, 576px y superior)
+@media (min-width: 576px) {  }
+
+// md (tablets, 768px y superior)
+@media (min-width: 768px) { }
+
+// lg (desktops, 992px y superior)
+@media (min-width: 992px) { }

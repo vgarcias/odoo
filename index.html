@@ -6,13 +6,14 @@
     <title>Odoo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
 </head>
 
 <body>
 
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-blue" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/svg/odoo-white.svg" alt="odoo" width="100"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -52,15 +53,15 @@
     </header>
 
     <main>
-        <section class="heroe">
-            <div class="container heroe-container">
+        <section class="hero">
+            <div class="container hero-container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 order-2 order-lg-1">
-                        <h1 class="heroe-title">Development <br>done right</h1>
-                        <p class="heroe-subtitle">Build a beautiful, modern website with<br> flexible components built
+                        <h1 class="hero-title">Development <br>done right</h1>
+                        <p class="hero-subtitle">Build a beautiful, modern website with<br> flexible components built
                             from scratch.</p>
-                        <button class="btn btn-light heroe-button">Get started <i data-lucide="plus"></i></button>
-                        <div class="container heroe-trustedby ms-0 ps-0">
+                        <button class="btn btn-light hero-button">Get started <i data-lucide="plus"></i></button>
+                        <div class="container hero-trustedby ms-0 ps-0">
                             <div class="row d-flex flex-nowrap">
                                 <div class="col ms-0 ps-0">
                                     Trusted by:
@@ -80,96 +81,566 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-6 col-sm-12 order-1 order-lg-2">
-                            <div class="heroe-demo">
-                                <div class="card-header d-flex justify-content-between align-items-baseline">
-                                    <div><h2 class="card-title">Manage cards</h2></div>
-                                    <div><button class="btn btn-light btn-bordergray">Add new</button></div>
+                        <div class="hero-demo">
+                            <div class="creditcard-header d-flex justify-content-between align-items-baseline">
+                                <div>
+                                    <h2 class="creditcard-title">Manage cards</h2>
                                 </div>
-                            <div class="card-panel w-100">
-                                <!-- Credit Card -->
-                                <div class="credit-card">
-                                    <div class="card-logo d-flex justify-content-between align-items-baseline">
-                                        <div><img src="./images/svg/mastercard.svg" alt="mastercard"></div>
+                                <div><button class="btn btn-light btn-bordergray">Add new</button></div>
+                            </div>
+                            <div class="creditcard-panel w-100">
+                                <div class="credit-creditcard">
+                                    <div class="creditcard-logo d-flex justify-content-between align-items-baseline">
+                                        <div><img src="./images/svg/mastercard.svg" alt="mastercreditcard"></div>
                                         <div><button class="btn btn-light btn-green">Active</button></div>
                                     </div>
-                                </div>                                
-                                    <div class="card-subtitle">CARD NUMBER</div>
-                                    <div class="card-number text-center">4358 - 7421 - 9256 - 6682</div>
-                                    
+                                </div>
+                                <div class="creditcard-subtitle">creditcard NUMBER</div>
+                                <div class="creditcard-number text-center">4358 - 7421 - 9256 - 6682</div>
+                                <div class="creditcard-logo d-flex justify-content-between align-items-center mt-4">
+                                    <div>
+                                        <span class="creditcard-subtitle">NAME</span><br>
+                                        <span class="creditcard-text">John Snow</span>
+                                    </div>
+                                    <div>
+                                        <span class="creditcard-subtitle">EXPIRY DATE</span><br>
+                                        <span class="creditcard-text">11/23</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <div class="payment">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="payment-title">Starbucks</div>
+                                        <div class="payment-amount">$5,50 USD</div>
+                                    </div>
+                                    <div class="payment-text">Pending - San Francisco, United States</div>
+                                </div>
+                                <div class="payment">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="payment-title">Nike Sports</div>
+                                        <div class="payment-amount">$129,00 USD</div>
+                                    </div>
+                                    <div class="payment-text">Pending - Lisbon, Portugal</div>
+                                </div>
+                            </div>
 
-                                    <div class="card-logo d-flex justify-content-between align-items-center mt-4">
-                                        <div>
-                                            <span class="card-subtitle">NAME</span><br>
-                                            <span class="card-text">John Snow</span>
+                            <a href="#" class="link-viewall">View all ›</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="clippath-1"></div>
+
+        </section>
+
+        <article>
+            <div class="container services">
+                <div class="row tools">
+                    <div class="col-lg-6 col-sm-12 order-2 order-lg-1">
+                        <div class="card tools-card border-light-subtle">
+                            <div class="tools-image">
+                                <button class="btn btn-light btn-tools-play"><span>Play video</span>
+                                    <i data-lucide="play"></i>
+                                </button>
+                            </div>
+                            <div class="card-body p-5">
+                                <h3 class="tools-subtitle mb-4">Awesome projects</h3>
+                                <div class="tools-item d-flex justify-content-between align-items-center mt-4">
+                                    <h5 class="mb-2">Create the new logo</h5>
+                                    <div class="d-flex align-items-center">
+                                        <span class="tools-text me-2">6:10</span>
+                                        <i class="bi bi-chevron-right tools-text"></i>
+                                    </div>
+                                </div>
+                                <div class="progress" style="height: 2px">
+                                    <div class="progress-bar" style="width: 30%"></div>
+                                </div>
+                                <div class="tools-item d-flex justify-content-between align-items-center mt-4 pt-4">
+                                    <h5 class="mb-2">Set up the color palette</h5>
+                                    <div class="d-flex align-items-center">
+                                        <span class="tools-text me-2"></span>
+                                        <i class="bi bi-chevron-right tools-text"></i>
+                                    </div>
+                                </div>
+                                <div class="progress" style="height: 2px">
+                                    <div class="progress-bar" style="width: 55%"></div>
+                                </div>
+                                <div class="tools-item d-flex justify-content-between align-items-center mt-4 pt-4">
+                                    <h5 class="mb-0">Wireframe and prototype</h5>
+                                    <div class="d-flex align-items-center">
+                                        <span class="tools-text me-2">6:50</span>
+                                        <i class="bi bi-chevron-right tools-text"></i>
+                                    </div>
+                                </div>
+                                <div class="progress" style="height: 2px">
+                                    <div class="progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 order-1 order-lg-2 px-5">
+                        <span class="badge bg-orange text-light mb-3 px-3 py-2">Tools</span>
+                        <h1 class="tools-title my-4">We build for designers and developers</h1>
+                        <p class="tools-text">Get components and examples, including <br>tons of variables that will
+                            help you
+                            grow your business.</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-12 mt-4 text-center"><img src="./images/png/dashed-curve-left.png" alt="----"></div>
+                </div>
+
+                <div class="row features">
+                    <div class="col-lg-6">
+                        <span class="badge bg-green text-light mb-3 px-3 py-2">Features</span>
+                        <h2 class="features-title">Get components and examples, including <br>tons of variables that
+                            will help you grow your <br>business.</h2>
+                        <ul class="list-group features-text">
+                            <li class="list-group-item">
+                                <i class="bi bi-check-square-fill me-3 fs-4"></i>
+                                Perfect for modern startups
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-check-square-fill me-3 fs-4"></i>
+                                Fully customizable and scalable
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card features-card">
+                            <div class="features-image">
+                                <button class="btn btn-light btn-features-play"><span>Play video</span>
+                                    <i data-lucide="play"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12 mt-5 text-center"><img src="./images/png/dashed-curve-right.png" alt="----">
+                    </div>
+                </div>
+
+                <div class="row technology">
+                    <div class="col-lg-6 col-sm-12 order-2 order-lg-1">
+                        <div class="row" data-masonry='{"percentPosition": true }'>
+                            <div class="col-sm-6">
+                                <div id="tech-card01" class="card border-light-subtle mx-2">
+                                    <img src="./images/jpg/person_03.jpg" class="card-img-top" alt="Jimmy hendrix">
+                                    <div class="card-body d-flex justify-content-between align-items-center">
+                                        <span class="badge-circle-m circle-text">JH</span>
+                                        <h4 class="card-title fs-6"><small>Jimmy Hendrix</small></h4>
+                                        <i data-lucide="heart"></i>
+                                    </div>
+                                </div>
+                                <div id="tech-card02" class="card border-light-subtle mt-3 mx-2">
+                                    <div class="card-body d-flex justify-content-between align-items-center">
+                                        <span class="badge-circle-g circle-text">JH</span>
+                                        <h5 class="card-title fs-6">300+ components<br><span class="card-text">Built to
+                                                be customized.</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div id="tech-card03" class="card border-light-subtle mb-3 mx-2">
+                                    <div class="card-body text-center py-4">
+                                        <img src="./images/svg/airbnb.svg" width="100" class="mb-4" alt="Airbnb">
+
+                                        <div class="stars mb-4">
+                                            <i class="bi bi-star text-orange"></i>
+                                            <i class="bi bi-star text-orange"></i>
+                                            <i class="bi bi-star text-orange"></i>
+                                            <i class="bi bi-star text-orange"></i>
+                                            <i class="bi bi-star text-light-gray"></i>
                                         </div>
-                                        <div>
-                                            <span class="card-subtitle">EXPIRY DATE</span><br>
-                                            <span class="card-text">11/23</span>
-                                        </div>
+
+                                        <h6 class="mb-1 fw-semibold">4.95 out of 5 stars</h6>
+                                        <p class="card-text mb-0">from 23 reviews
+
+                                        </p>
                                     </div>
                                 </div>
 
-                                <div class="mt-4">
-                                    <div class="payment">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="payment-title">Starbucks</div>
-                                            <div class="payment-amount">$5,50 USD</div>
-                                        </div>
-                                        <div class="payment-text">Pending - San Francisco, United States</div>
-                                    </div>
+                                <div id="tech-card04" class="card border-light-subtle mx-2">
+                                    <div class="card-body text-center py-4">
+                                        <img src="./images/png/company_01.png" width="60" class="mb-4 rounded-circle"
+                                            alt="Company">
 
-                                    <div class="payment">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="payment-title">Nike Sports</div>
-                                            <div class="payment-amount">$129,00 USD</div>
+                                        <h6 class="mb-4 fw-bold">Website UI Kit</h6>
+
+                                        <div class="people mb-4">
+                                            <img src="./images/jpg/person_01.jpg" alt="Persona 01"
+                                                class="persona-small rounded-circle border border-2 border-white">
+                                            <img src="./images/jpg/person_02.jpg" alt="Persona 02"
+                                                class="persona-small rounded-circle border border-2 border-white">
+                                            <img src="./images/jpg/person_03.jpg" alt="Persona 03"
+                                                class="persona-small rounded-circle border border-2 border-white">
                                         </div>
-                                        <div class="payment-text">Pending - Lisbon, Portugal</div>
+                                        <hr width="25%" class="mx-auto">
+                                        <div class="more-icons">
+                                            <i data-lucide="paperclip"></i>
+                                            <i data-lucide="eye"></i>
+                                            <i data-lucide="heart"></i>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <a href="#" class="link-viewall">View all ›</a>
-                            </div>                                
-                            
+
 
 
 
                         </div>
                     </div>
 
+                    <div class="col-lg-6 col-sm-12 order-1 order-lg-2 px-5 py-5">
+                        <div class="technology-content">
+                            <span class="badge bg-blue text-light mb-3 px-3 py-2">Technology</span>
+                            <h1 class="technology-title my-4">We use the latest <br>technologies on the market</h1>
+                            <p class="technology-text mb-4">Get components and examples, including tons of variables
+                                that will help you grow your business.</p>
+                            <a href="#" class="link-cases">See case studies</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="curva-03" class="row">
+                    <div class="col-12 mt-5 text-center"><img src="./images/png/dashed-curve-left.png" alt="----">
+                    </div>
+                </div>
+
+                <div class="row easy">
+                    <div class="col-lg-6">
+                        <span class="badge bg-orange text-light my-5 px-3 py-2">Easy to install</span>
+                        <h2 class="easy-title">Download, install and run.</h2>
+                        <p class="easy-text mb-4">Get components and examples, including tons of variables
+                            <br>that will help you grow your business.
+                        </p>
+
+                        <img src="./images/png/apple-store.png" alt="apple store" width="120" class="me-3">
+                        <img src="./images/png/play-store.png" alt="google play" width="120">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card easy-card">
+                            <div class="easy-image">
+                                <button class="btn btn-light btn-easy-play"><span>Play video</span>
+                                    <i data-lucide="play"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
+                <div class="row">
+                    <div class="col-12 mt-4 text-center"><img src="./images/png/dashed-curve-right.png" alt="----">
+                    </div>
+                </div>
 
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between align-items-center" id="infinite">
+                        <div>
+                            <h2 class="text-white">Infinite possibilities</h2>
+                            <p class="text-light">Intuitive markup, powerful and lightning-fast build tools,
+                                <br>everything you need to turn your ideas into incredible products.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-light btn-infinite">Learn more<i
+                                    data-lucide="arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="clippath-1"></div>
-        </section>
-
-
-        <article>
-            <h2>Título del Artículo</h2>
-            <p>Este es un artículo independiente sobre un tema.</p>
         </article>
 
-        <section>
-            <h2>Otras secciones</h2>
-            <p>Contenido relacionado agrupado.</p>
+        <section class="awards">
+            <div class="container awards-container">
+                <div class="row awards-top">
+                    <div class="col-lg-12">
+                        <span class="badge bg-blue text-light mb-3 px-3 py-2">Awards</span>
+                        <p class="awards-text text-navy-blue fw-semibold mt-3">Awards for design, creativity, and
+                            innovation on the Internet</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="row awards-bottom mt-5">
+                    <div class="col-lg-12 d-flex d-flex justify-content-end">
+                        <div id="award-01"
+                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-end">
+                            <div class="card-body text-center py-4">
+                                <img src="./images/svg/airbnb.svg" width="100" class="mb-4" alt="Airbnb">
+                                <div class="stars mb-4">
+                                    <i class="bi bi-star text-orange"></i>
+                                    <i class="bi bi-star text-orange"></i>
+                                    <i class="bi bi-star text-orange"></i>
+                                    <i class="bi bi-star text-orange"></i>
+                                    <i class="bi bi-star text-light-gray"></i>
+                                </div>
+                                <h6 class="mb-1 fw-bold text-navy-blue">4.95 out of 5 stars</h6>
+                                <p class="card-text mt-3">from 23 reviews</p>
+                                <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">.</a>
+                            </div>
+                        </div>
+
+                        <div id="award-02"
+                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-start">
+                            <div class="card-body text-center py-4">
+                                <img src="./images/svg/amazon.svg" width="100" class="mb-4" alt="Amazon">
+                                <p class="card-text mt-2 mb-4">They build modern <br>looking websites easily <br>using
+                                    Tabs.</p>
+                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">Learn more</a>
+                                <hr width="25%" class="mx-auto border border-2 border-black opacity-100">
+                            </div>
+                        </div>
+
+                        <div id="award-03"
+                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-end">
+                            <div class="card-body text-center py-4">
+                                <img src="./images/svg/slack.svg" width="100" class="mb-4" alt="Slack">
+                                <p class="card-text mt-2 mb-4">They build modern <br>looking websites easily <br>using
+                                    Tabs.</p>
+                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">Learn more</a>
+                                <hr width="25%" class="mx-auto border border-2 border-black opacity-100">
+                            </div>
+                        </div>
+
+                        <div id="award-04"
+                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-start">
+                            <div class="card-body text-center py-4">
+                                <img src="./images/svg/spotify.svg" width="100" class="mb-4" alt="Spotify">
+                                <div class="stars mb-4">
+                                    <i class="bi bi-star text-orange"></i>
+                                    <i class="bi bi-star text-orange"></i>
+                                    <i class="bi bi-star text-orange"></i>
+                                    <i class="bi bi-star text-orange"></i>
+                                    <i class="bi bi-star text-light-gray"></i>
+                                </div>
+                                <h6 class="mb-1 fw-bold text-navy-blue">4.95 out of 5 stars</h6>
+                                <p class="card-text mt-3">from 23 reviews</p>
+                                <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">.</a>
+                            </div>
+                        </div>
+
+                        <div id="award-05"
+                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-end">
+                            <div class="card-body text-center py-4">
+                                <img src="./images/svg/paypal.svg" width="100" class="mb-4" alt="Paypal">
+                                <p class="card-text mt-2 mb-4">They build modern <br>looking websites easily <br>using
+                                    Tabs.</p>
+                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">Learn more</a>
+                                <hr width="25%" class="mx-auto border border-2 border-black opacity-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="miModalCustom" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabel">¡Logrado!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Has hecho clic en la card y el modal se ha desplegado correctamente.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-green" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-blue">Entendido</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </section>
     </main>
 
-    <aside>
-        <h3>Enlaces Relacionados</h3>
-        <p>Publicidad o enlaces extra.</p>
+    <aside class="helpful-answers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="helpful-title my-4">Helpful answers</h1>
+                    <p class="helpful-text my-4">Start building fast, beautiful, and modern-looking websites in no time.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="accordion" id="accordion01">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse01" aria-expanded="false" aria-controls="collapse01">
+                                    <i data-lucide="file"></i> Which license do I need?
+                                </button>
+                            </h2>
+                            <div id="collapse01" class="accordion-collapse collapse" data-bs-parent="#accordion01">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It’s also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" id="accordion02">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse02" aria-expanded="false" aria-controls="collapse02">
+                                    <i data-lucide="lock-open"></i> How do I get access to my database?
+                                </button>
+                            </h2>
+                            <div id="collapse02" class="accordion-collapse collapse" data-bs-parent="#accordion02">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It’s also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" id="accordion03">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse03" aria-expanded="false" aria-controls="collapse03">
+                                    <i data-lucide="folder"></i> How do I see previous orders?
+                                </button>
+                            </h2>
+                            <div id="collapse03" class="accordion-collapse collapse" data-bs-parent="#accordion03">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It’s also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div class="accordion" id="accordion04">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse04" aria-expanded="false" aria-controls="collapse04">
+                                    <i data-lucide="file"></i> Which license do I need?
+                                </button>
+                            </h2>
+                            <div id="collapse04" class="accordion-collapse collapse" data-bs-parent="#accordion04">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It’s also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" id="accordion05">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse05" aria-expanded="false" aria-controls="collapse05">
+                                    <i data-lucide="lock-open"></i> How do I get access to my database?
+                                </button>
+                            </h2>
+                            <div id="collapse05" class="accordion-collapse collapse" data-bs-parent="#accordion05">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It’s also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" id="accordion06">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse06" aria-expanded="false" aria-controls="collapse06">
+                                    <i data-lucide="folder"></i> How do I see previous orders?
+                                </button>
+                            </h2>
+                            <div id="collapse06" class="accordion-collapse collapse" data-bs-parent="#accordion06">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by
+                                    default, until the collapse plugin adds the appropriate classes that we use to
+                                    style each element. These classes control the overall appearance, as well as the
+                                    showing and hiding via CSS transitions. You can modify any of this with custom
+                                    CSS or overriding our default variables. It’s also worth noting that just about
+                                    any HTML can go within the <code>.accordion-body</code>, though the transition
+                                    does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mt-5 text-center">
+                    <h6>I want to start a new project.</h6>
+                    <button class="btn btn-primary btn-helpful mt-3">Buy now <i data-lucide="arrow-right"></i></button>
+                    <button class="btn mt-3">Learn more</button>
+                </div>
+            </div>
+        </div>
+
     </aside>
 
     <footer>
         <p>&copy; 2023 Mi Sitio Web</p>
     </footer>
 
-
-
-
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
         lucide.createIcons();

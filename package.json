@@ -5,17 +5,22 @@
   "main": "index.js",
   "scripts": {
     "dev": "sass --watch scss:css",
-    "build": "sass scss\\main.scss css\\main.min.css --style=compressed"
-  },
+    "build": "sass scss\\main.scss css\\main.min.css --style=compressed",
+    "copy": "mkdir css\\fonts 2>nul && xcopy node_modules\\bootstrap\\dist\\css\\bootstrap.min.css css\\ /Y && xcopy node_modules\\bootstrap-icons\\font\\bootstrap-icons.css css\\ /Y && xcopy node_modules\\bootstrap-icons\\font\\fonts\\* css\\fonts\\ /Y"
+
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "bootstrap": "5.3",
+    "mkdirp": "^3.0.1",
     "sass": "^1.97.3"
   },
   "dependencies": {
-    "lucide": "^0.563.0"
+    "bootstrap-icons": "^1.13.1",
+    "lucide": "^0.563.0",
+    "masonry-layout": "^4.2.2"
   }
 }

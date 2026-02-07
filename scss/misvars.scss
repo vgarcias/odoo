@@ -1,11 +1,22 @@
-$primary: #038AFF;
+$blue: #038AFF;
+$orange:#FEBD3D;
+$turquoise:#5CCAA7;
+$navy-blue:#152B5C;
+$dark-blue:#161348;
+$gray:#8592A5;
+$dark-gray:#6E7F94;
+$light-gray:#E9ECF3;
+$light-border:#E8E8E8;
+
 $border-radius: 7px;
+$border-nav: 1px solid lighten($blue, 10%);
+
 $full-width: 1280px;
 $lg-width: 1200px;
-$border-nav: 1px solid lighten($primary, 10%);
+
 $font-family-base: 'Nunito Sans', sans-serif;
-$font-shopping-size: 15px;
-$navy-blue:#152B5C;
-$turquoise:#5CCAA7;
-$gray:#8592A5;
-$light-gray:#E9ECF3;
+$font-btn1-size: 15px;
+
+$accordion-button-active-bg:none;
+$accordion-button-active-color:none;
+$accordion-button-color:$navy-blue;
