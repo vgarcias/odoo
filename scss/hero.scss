@@ -1,10 +1,11 @@
 .hero {
     background-color: $blue;
     margin-top: 0px;
-    padding-top: 90px;
+    padding-top: 15px;
+
 }
 .hero-container {
-    width: $lg-width;
+    width: 100%;
     margin: 0 auto;
 }
 .hero-title {
@@ -21,14 +22,19 @@
     line-height: 2rem;
     margin-top: 20px;
 }   
+.hero-content{
+    text-align: center;
+}
 .hero-trustedby{
+    margin: auto;
     color: white;
     font-size: 0.9rem;
     font-weight: 500;
     line-height: 1.5rem;
     text-align: center;
-    min-width: 600px;
+    width: 360px;
     margin-top: 90px;
+    padding-bottom: 40px;
 }
 
 .hero-button{
@@ -42,7 +48,7 @@
 .hero-demo{
     margin-top: 0px;
     width: 100%;
-    max-width: 550px;
+    max-width: 375px;
     border-radius: 10px;
     border-bottom-right-radius: 100px;
     background-color: white;
@@ -60,8 +66,8 @@
     border-radius: 7px;
     padding: 20px;
     margin-top: 10px;
-    width: 470px;
-    height: 280px;
+    width: 360px;
+    height: 240px;
 }
 .creditcard-subtitle{
     font-size: 0.7rem;
@@ -71,13 +77,13 @@
     margin-bottom: 20px;
 }
 .creditcard-text{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     margin-top:20px;
     font-weight: 600;
 }
 .creditcard-number{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: white;
     margin-top: 4px;
     margin-top: 6px;
@@ -115,10 +121,93 @@
 }
 
 // sm (landscape phones, 576px y superior)
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { 
+
+    .hero {
+    background-color: $blue;
+    margin-top: 0px;
+    padding-top: 90px;
+}
+    .hero-demo{
+    margin-top: 0px;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    background-color: white;
+    padding: 40px;
+}
+    .hero-trustedby{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: center;
+    width: 490px;
+    margin-top: 90px;
+    padding-bottom: 40px;
+}
+.creditcard-number{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 4px;
+    margin-top: 6px;
+    font-weight: 700;
+}
+.creditcard-text{
+    font-size: 1.5rem;
+    color: white;
+    margin-top:20px;
+    font-weight: 600;
+}
+
+ }
 
 // md (tablets, 768px y superior)
-@media (min-width: 768px) { }
+@media (min-width: 768px) {
+
+.hero-demo{
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    background-color: white;
+    padding: 40px;
+}
+    .hero-trustedby{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 90px;
+    padding-bottom: 40px;
+}
+
+}
 
 // lg (desktops, 992px y superior)
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+
+    .hero-container {
+    width: $lg-width;
+    margin: 0 auto;
+}
+    
+    .hero-trustedby{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: center;
+    min-width: 600px;
+    margin-top: 90px;
+}
+.hero-content{
+    text-align: left;
+}
+
+}

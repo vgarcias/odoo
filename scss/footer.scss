@@ -1,0 +1,187 @@
+.purchase {
+    background-color: $dark-blue;
+    margin-top: 60px;
+
+}
+.clippath-2 {
+    width: 100%;
+    height: 100px;
+    background: white;
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 0 100%);
+    border: none;
+}
+
+.hr-footer {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(100, 149, 237, 0.5), rgba(255, 255, 255, 0));
+    margin: 20px 0 60px 0;
+    width: 100%;
+}
+
+.purchase-container {
+    background-color: $dark-blue;
+    width: 100%;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.purchase-container h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.purchase-container p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.btn-documentation {
+    background: white;
+    color: $dark-blue;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.btn-documentation i {
+    color: $blue;
+}
+
+.btn-documentation:hover {
+    background: white;
+    color: $dark-blue;
+}
+
+.btn-purchase {
+    background: $blue;
+    color: white;
+    padding: 12px 30px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.btn-purchase:hover {
+    background: $blue;
+}
+
+footer {
+    background: $dark-blue;
+    color: white;
+    padding: 30px 0 30px;
+}
+
+.footer-container {
+    width: 100%;
+}
+
+.footer-logo {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    max-width: 400px;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.social-icons {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 30px;
+}
+
+.footer-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.footer-bottom-links a:hover {
+    color: white;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+// sm (landscape phones, 576px y superior)
+@media (min-width: 576px) {
+.footer-logo {
+    text-align: left;
+}
+.footer-description {
+    text-align: left;
+}
+.social-icons {
+    text-align: left;
+}
+
+}
+
+// md (tablets, 768px y superior)
+@media (min-width: 768px) {
+
+    .footer-bottom {
+    text-align: left;
+}
+
+    .footer-bottom-links {
+        text-align: end;
+    }
+
+
+}
+
+// lg (desktops, 992px y superior)
+@media (min-width: 992px) {
+    .purchase-container {
+        width: $lg-width;
+        color: white;
+        margin-top: 60px;
+        text-align: left;
+    }
+
+    .footer-container {
+        width: $lg-width;
+    }
+}

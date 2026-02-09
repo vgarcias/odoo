@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Odoo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/svg/odoo.svg" sizes="any" type="image/svg+xml" />
+
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap-icons.css">
 </head>
@@ -56,33 +58,30 @@
         <section class="hero">
             <div class="container hero-container">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 order-2 order-lg-1">
+                    <div class="col-lg-6 col-12 hero-content">
                         <h1 class="hero-title">Development <br>done right</h1>
                         <p class="hero-subtitle">Build a beautiful, modern website with<br> flexible components built
                             from scratch.</p>
                         <button class="btn btn-light hero-button">Get started <i data-lucide="plus"></i></button>
                         <div class="container hero-trustedby ms-0 ps-0">
-                            <div class="row d-flex flex-nowrap">
-                                <div class="col ms-0 ps-0">
+                            <div class="row trustedby-wrap-nowrap">
+                                <div class="col-md-2 ms-0 ps-0 text-center">
                                     Trusted by:
                                 </div>
-                                <div class="col">
-                                    <img src="images/svg/google-white.svg" alt="google" width="80">
-                                </div>
-                                <div class="col">
-                                    <img src="images/svg/airbnb-white.svg" alt="airbnb" width="80">
-                                </div>
-                                <div class="col">
-                                    <img src="images/svg/spotify-white.svg" alt="spotify" width="80">
-                                </div>
-                                <div class="col">
-                                    <img src="images/svg/paypal-white.svg" alt="paypal" width="80">
+                                <div class="col-md-10">
+                                    <img src="images/svg/google-white.svg" alt="google" width="80" class="mx-3 my-3">
+
+                                    <img src="images/svg/airbnb-white.svg" alt="airbnb" width="80" class="mx-3 my-3">
+
+                                    <img src="images/svg/spotify-white.svg" alt="spotify" width="80" class="mx-3 my-3">
+
+                                    <img src="images/svg/paypal-white.svg" alt="paypal" width="80" class="mx-3 my-3">
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12 order-1 order-lg-2">
+                    <div class="col-lg-6 col-12">
                         <div class="hero-demo">
                             <div class="creditcard-header d-flex justify-content-between align-items-baseline">
                                 <div>
@@ -97,7 +96,7 @@
                                         <div><button class="btn btn-light btn-green">Active</button></div>
                                     </div>
                                 </div>
-                                <div class="creditcard-subtitle">creditcard NUMBER</div>
+                                <div class="creditcard-subtitle">CARD NUMBER</div>
                                 <div class="creditcard-number text-center">4358 - 7421 - 9256 - 6682</div>
                                 <div class="creditcard-logo d-flex justify-content-between align-items-center mt-4">
                                     <div>
@@ -164,7 +163,7 @@
                                 <div class="tools-item d-flex justify-content-between align-items-center mt-4 pt-4">
                                     <h5 class="mb-2">Set up the color palette</h5>
                                     <div class="d-flex align-items-center">
-                                        <span class="tools-text me-2"></span>
+                                        <span class="tools-text me-2">6:30</span>
                                         <i class="bi bi-chevron-right tools-text"></i>
                                     </div>
                                 </div>
@@ -188,14 +187,13 @@
                     <div class="col-lg-6 col-sm-12 order-1 order-lg-2 px-5">
                         <span class="badge bg-orange text-light mb-3 px-3 py-2">Tools</span>
                         <h1 class="tools-title my-4">We build for designers and developers</h1>
-                        <p class="tools-text">Get components and examples, including <br>tons of variables that will
-                            help you
-                            grow your business.</p>
+                        <p class="tools-text">Get components and examples, including tons of variables that will
+                            help you grow your business.</p>
                     </div>
 
                 </div>
 
-                <div class="row">
+                <div class="row tools-features-curva">
                     <div class="col-12 mt-4 text-center"><img src="./images/png/dashed-curve-left.png" alt="----"></div>
                 </div>
 
@@ -227,16 +225,16 @@
                     </div>
                 </div>
 
-                <div class="row mt-5">
+                <div class="row features-technology-curva">
                     <div class="col-12 mt-5 text-center"><img src="./images/png/dashed-curve-right.png" alt="----">
                     </div>
                 </div>
 
                 <div class="row technology">
                     <div class="col-lg-6 col-sm-12 order-2 order-lg-1">
-                        <div class="row" data-masonry='{"percentPosition": true }'>
+                        <div class="row">
                             <div class="col-sm-6">
-                                <div id="tech-card01" class="card border-light-subtle mx-2">
+                                <div id="tech-card01" class="card border-light-subtle">
                                     <img src="./images/jpg/person_03.jpg" class="card-img-top" alt="Jimmy hendrix">
                                     <div class="card-body d-flex justify-content-between align-items-center">
                                         <span class="badge-circle-m circle-text">JH</span>
@@ -244,7 +242,7 @@
                                         <i data-lucide="heart"></i>
                                     </div>
                                 </div>
-                                <div id="tech-card02" class="card border-light-subtle mt-3 mx-2">
+                                <div id="tech-card02" class="card border-light-subtle mt-3">
                                     <div class="card-body d-flex justify-content-between align-items-center">
                                         <span class="badge-circle-g circle-text">JH</span>
                                         <h5 class="card-title fs-6">300+ components<br><span class="card-text">Built to
@@ -254,7 +252,7 @@
                             </div>
 
                             <div class="col-sm-6">
-                                <div id="tech-card03" class="card border-light-subtle mb-3 mx-2">
+                                <div id="tech-card03" class="card border-light-subtle mb-3">
                                     <div class="card-body text-center py-4">
                                         <img src="./images/svg/airbnb.svg" width="100" class="mb-4" alt="Airbnb">
 
@@ -273,7 +271,7 @@
                                     </div>
                                 </div>
 
-                                <div id="tech-card04" class="card border-light-subtle mx-2">
+                                <div id="tech-card04" class="card border-light-subtle">
                                     <div class="card-body text-center py-4">
                                         <img src="./images/png/company_01.png" width="60" class="mb-4 rounded-circle"
                                             alt="Company">
@@ -297,11 +295,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
                         </div>
                     </div>
 
@@ -346,7 +339,7 @@
                 </div>
 
 
-                <div class="row">
+                <div class="row easy-infinite-curva">
                     <div class="col-12 mt-4 text-center"><img src="./images/png/dashed-curve-right.png" alt="----">
                     </div>
                 </div>
@@ -356,7 +349,7 @@
                         <div>
                             <h2 class="text-white">Infinite possibilities</h2>
                             <p class="text-light">Intuitive markup, powerful and lightning-fast build tools,
-                                <br>everything you need to turn your ideas into incredible products.
+                                everything you need to turn your ideas into incredible products.
                             </p>
                         </div>
                         <div>
@@ -369,8 +362,8 @@
         </article>
 
         <section class="awards">
-            <div class="container awards-container">
-                <div class="row awards-top">
+            <div class="container awards-top">
+                <div class="row">
                     <div class="col-lg-12">
                         <span class="badge bg-blue text-light mb-3 px-3 py-2">Awards</span>
                         <p class="awards-text text-navy-blue fw-semibold mt-3">Awards for design, creativity, and
@@ -379,12 +372,11 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="awards-container">
 
-                <div class="row awards-bottom mt-5">
-                    <div class="col-lg-12 d-flex d-flex justify-content-end">
-                        <div id="award-01"
-                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-end">
+                <div class="row awards-bottom awards-wrap-nowrap justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-sm-6" style="width: 245px; flex: 0 0 auto;">
+                        <div id="award-01" class="card border-light-subtle hover-card shadow-sm mx-2">
                             <div class="card-body text-center py-4">
                                 <img src="./images/svg/airbnb.svg" width="100" class="mb-4" alt="Airbnb">
                                 <div class="stars mb-4">
@@ -396,34 +388,37 @@
                                 </div>
                                 <h6 class="mb-1 fw-bold text-navy-blue">4.95 out of 5 stars</h6>
                                 <p class="card-text mt-3">from 23 reviews</p>
-                                <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">.</a>
+                                <a href="#" class="stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#miModalCustom">.</a>
                             </div>
                         </div>
-
-                        <div id="award-02"
-                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-start">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6" style="width: 245px; flex: 0 0 auto;">
+                        <div id="award-02" class="card border-light-subtle hover-card shadow-sm mx-2">
                             <div class="card-body text-center py-4">
                                 <img src="./images/svg/amazon.svg" width="100" class="mb-4" alt="Amazon">
                                 <p class="card-text mt-2 mb-4">They build modern <br>looking websites easily <br>using
                                     Tabs.</p>
-                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">Learn more</a>
+                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#miModalCustom">Learn more</a>
                                 <hr width="25%" class="mx-auto border border-2 border-black opacity-100">
                             </div>
                         </div>
-
-                        <div id="award-03"
-                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-end">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6" style="width: 245px; flex: 0 0 auto;">
+                        <div id="award-03" class="card border-light-subtle hover-card shadow-sm mx-2">
                             <div class="card-body text-center py-4">
                                 <img src="./images/svg/slack.svg" width="100" class="mb-4" alt="Slack">
                                 <p class="card-text mt-2 mb-4">They build modern <br>looking websites easily <br>using
                                     Tabs.</p>
-                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">Learn more</a>
+                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#miModalCustom">Learn more</a>
                                 <hr width="25%" class="mx-auto border border-2 border-black opacity-100">
                             </div>
                         </div>
-
-                        <div id="award-04"
-                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-start">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6" style="width: 245px; flex: 0 0 auto;">
+                        <div id="award-04" class="card border-light-subtle hover-card shadow-sm mx-2">
                             <div class="card-body text-center py-4">
                                 <img src="./images/svg/spotify.svg" width="100" class="mb-4" alt="Spotify">
                                 <div class="stars mb-4">
@@ -435,17 +430,19 @@
                                 </div>
                                 <h6 class="mb-1 fw-bold text-navy-blue">4.95 out of 5 stars</h6>
                                 <p class="card-text mt-3">from 23 reviews</p>
-                                <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">.</a>
+                                <a href="#" class="stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#miModalCustom">.</a>
                             </div>
                         </div>
-
-                        <div id="award-05"
-                            class="card border-light-subtle hover-card shadow-sm mx-2 flex-item align-self-end">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6" style="width: 245px; flex: 0 0 auto;">
+                        <div id="award-05" class="card border-light-subtle hover-card shadow-sm mx-2">
                             <div class="card-body text-center py-4">
                                 <img src="./images/svg/paypal.svg" width="100" class="mb-4" alt="Paypal">
                                 <p class="card-text mt-2 mb-4">They build modern <br>looking websites easily <br>using
                                     Tabs.</p>
-                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal" data-bs-target="#miModalCustom">Learn more</a>
+                                <a href="#" class="link-learnmore stretched-link" data-bs-toggle="modal"
+                                    data-bs-target="#miModalCustom">Learn more</a>
                                 <hr width="25%" class="mx-auto border border-2 border-black opacity-100">
                             </div>
                         </div>
@@ -455,7 +452,7 @@
 
 
             <div class="modal fade" id="miModalCustom" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-fullscreen modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="modalLabel">¡Logrado!</h5>
@@ -466,7 +463,6 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-green" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-blue">Entendido</button>
                         </div>
                     </div>
                 </div>
@@ -488,7 +484,7 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                     <div class="accordion" id="accordion01">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -556,7 +552,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-md-12">
                     <div class="accordion" id="accordion04">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -627,17 +623,106 @@
             <div class="row">
                 <div class="col-lg-12 mt-5 text-center">
                     <h6>I want to start a new project.</h6>
-                    <button class="btn btn-primary btn-helpful mt-3">Buy now <i data-lucide="arrow-right"></i></button>
-                    <button class="btn mt-3">Learn more</button>
+                    <button class="btn btn-blue text-light btn-helpful mt-3">Buy now <i
+                            data-lucide="arrow-right"></i></button>
+                    <button class="btn btn-helpful mt-3">Learn more</button>
                 </div>
             </div>
         </div>
 
     </aside>
 
+    <section class="purchase">
+
+        <div class="clippath-2"></div>
+
+        <div class="container purchase-container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1>Brilliant solutions for your ideas</h1>
+                    <p>Modern looking websites.</p>
+                </div>
+                <div class="col-lg-5 text-lg-end">
+                    <button class="btn btn-documentation">
+                        <span class="blue-icon me-2"><i data-lucide="book"></i></span> Documentation
+                    </button>
+                    <button class="btn btn-purchase">Purchase now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Mi Sitio Web</p>
+        <div class="container footer-container">
+            <hr class="hr-footer">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="footer-logo"><img src="./images/svg/odoo-white.svg" alt="odoo" width="100"></div>
+                    <p class="footer-description">
+                        Odoo attempts to bring the best development experience to designers and developers by offering
+                        the tools needed for having a quick and solid start in most web projects.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-dribbble"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-4 mb-4">
+                    <h5 class="footer-heading">Account</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Billing</a></li>
+                        <li><a href="#">Notifications</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-4 mb-4">
+                    <h5 class="footer-heading">About</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-4 mb-4">
+                    <h5 class="footer-heading">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="hr-footer">
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6  order-2 order-lg-1">
+                            <div class="copyright">© <span class="fw-bold">Odoo</span>. All rights reserved</div>
+                        </div>
+                        <div class="col-12 col-sm-6  order-1 order-lg-2">
+                            <div class="footer-bottom-links">
+                                <a href="#">Terms</a>
+                                <a href="#">Privacy</a>
+                                <a href="#">Cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
     </footer>
+
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>

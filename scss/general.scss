@@ -54,9 +54,26 @@ body {
 }
 
 .btn-green:hover {
-    background-color: darken($turquoise, 20%);
+    background-color: lighten($turquoise, 20%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.btn-blue {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: $blue;
+    color: white;
+    border: none;
+}
+
+.btn-blue:hover {
+    background-color: lighten($blue, 10%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.blue-icon {
+    color: $blue;
+}   
 
 .progress-bar {
     color: $orange;

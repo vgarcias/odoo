@@ -1,19 +1,15 @@
 .services{
     padding-top:60px;
-    width: $lg-width;
+    width: 100%;
     margin: 0 auto;
-
 }
 .tools-card {
     position: relative;
 }
 .tools-image {
-    position: absolute;
-    left: 230px;
-    top: -80px;
-    z-index: 10;
-    width: 320px;
-    height: 256px;
+    width: 360px;
+    height: 240px;
+    margin: 0 auto;
     background-image: url(../images/jpg/img_01.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -74,12 +70,10 @@
     border: none;
 }
 .features-image {
-    position: absolute;
-    left: -70px;
-    top: -70px;
-    z-index: 10;
-    width: 600px;
-    height: 480px;
+    width: 360px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 30px;
     background-image: url(../images/jpg/img_02.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -92,6 +86,9 @@
     font-size: 0.8rem;
     margin-top: 20px;
     margin-left: 20px;
+}
+.features-technology-curva{
+    margin:-20px auto;
 }
 .technology-content{
     margin-top: 50px;
@@ -116,6 +113,7 @@
     border-bottom: 2px solid $blue;
 }
 .technology .card {
+    margin: auto;
     width:260px;
     color:$navy-blue;
 }
@@ -126,6 +124,9 @@
 }
 #tech-card01{
     margin-top: 100px;
+}
+#tech-card03{
+    margin-top: 20px;
 }
 .persona-small{
     width: 36px;
@@ -143,8 +144,9 @@
     border: none;
 }
 .easy-image{
-    width: 550px;
-    height: 440px;
+    margin: 40px auto;
+    width: 360px;
+    height: 240px;
     background-image: url(../images/jpg/img_03.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -170,6 +172,122 @@
     color:$dark-gray;
     font-weight: 600;
 }
+.easy-infinite-curva{
+    margin: -20px auto;
+}
+#infinite{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: $dark-blue;
+    color: white;
+    border-radius: 0px 60px 0px 60px;
+}
+#infinite p{
+    width: 75%;
+    font-size: 0.7rem;
+}
+.btn-infinite{
+    font-size: $font-btn1-size;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    text-wrap-mode: nowrap;   
+}
+// sm (landscape phones, 576px y superior)
+@media (min-width: 576px) {}
+
+// md (tablets, 768px y superior)
+@media (min-width: 768px) {
+
+    .tools-image {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(../images/jpg/img_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
+.features-image {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url(../images/jpg/img_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
+
+.easy-image{
+    margin: 40px auto;
+    width: 500px;
+    height: 400px;
+    background-image: url(../images/jpg/img_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
+#tech-card03{
+    margin-top: 0px;
+}
+}
+
+// lg (desktops, 992px y superior)
+@media (min-width: 992px) {
+
+.services{
+    padding-top:60px;
+    width: $lg-width;
+    margin: 0 auto;
+}
+
+.tools-image {
+    position: absolute;
+    left: 230px;
+    top: -80px;
+    z-index: 10;
+    width: 320px;
+    height: 256px;
+    background-image: url(../images/jpg/img_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
+.features-image {
+    position: absolute;
+    left: -70px;
+    top: -70px;
+    z-index: 10;
+    width: 600px;
+    height: 480px;
+    background-image: url(../images/jpg/img_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
+
+.features-technology-curva{
+    margin:40px auto;
+}
+.easy-infinite-curva{
+    margin: 20px auto;
+}
+.easy-image{
+    width: 550px;
+    height: 440px;
+    background-image: url(../images/jpg/img_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: $border-radius;
+}
 #infinite{
     width: $lg-width;
     margin: 0 auto;
@@ -178,9 +296,8 @@
     color: white;
     border-radius: 0px 70px 0px 70px;
 }
-.btn-infinite{
-    font-size: $font-btn1-size;
-    font-weight: 600;
-    font-size: 0.9rem;
-    margin-top: 20px;   
+#infinite p{
+    width: 55%;
+    font-size: 1rem;
+}
 }

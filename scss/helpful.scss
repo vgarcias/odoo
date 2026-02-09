@@ -1,8 +1,8 @@
 .helpful-answers{
-    width: $lg-width;
+    width: 100%;
     margin: auto;
     color:$navy-blue;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .accordion{
     margin-bottom: 24px;
@@ -10,4 +10,24 @@
 .accordion-button{
     font-size: 0.8rem;
     font-weight: 700;
+}
+.btn-helpful{
+    font-size: 0.8rem;
+}
+
+// sm (landscape phones, 576px y superior)
+@media (min-width: 576px) {}
+
+// md (tablets, 768px y superior)
+@media (min-width: 768px) {}
+
+// lg (desktops, 992px y superior)
+@media (min-width: 992px) {
+
+.helpful-answers{
+    width: $lg-width;
+    margin: auto;
+    color:$navy-blue;
+    margin-top: 150px;
+}    
 }
